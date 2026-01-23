@@ -1,4 +1,5 @@
-# Implementation Report: IG and IDG Attribution
+# Integrated Gradients and Integrated Decision Gradients
+### Initial Implementation Results 
 
 This report summarizes the scratch implementation of two influential attribution algorithms: Integrated Gradients (IG) and the recently proposed Integrated Decision Gradients (IDG). Both methods aim to explain neural network decisions by assigning importance scores to input features, but they differ fundamentally in how they handle model saturation.
 
