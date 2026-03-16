@@ -36,17 +36,16 @@ While IG provides a strong axiomatic foundation, it suffers from the saturation 
 
 ## How to Run
 
-1. Create and activate a Python virtual environment (recommended).
-2. Install dependencies:
+1. Install dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-3. Open Jupyter and run one notebook at a time:
+2. Open Jupyter and run one notebook at a time:
 	- `integrated_gradients.ipynb` (uses `test_data\dog_test.jpg` by default)
 	- `integrated_decision_gradients.ipynb` (uses `test_data\monkey_test.jpg` by default)
-4. Run all cells from top to bottom to:
+3. Run all cells from top to bottom to:
 	- load pretrained ResNet50,
 	- compute attributions,
 	- visualize heatmaps and the preprocessed input image.
