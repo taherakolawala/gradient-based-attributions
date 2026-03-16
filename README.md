@@ -33,3 +33,22 @@ In contrast, the IDG implementation produces a more concentrated heatmap. It fil
 ## Conclusion
 
 While IG provides a strong axiomatic foundation, it suffers from the saturation effect, where gradients from non-informative regions of the path degrade the explanation. IDG provides a principled solution by weighting gradients by their actual impact on the model's transition from a baseline state to a final decision.
+
+## How to Run
+
+1. Create and activate a Python virtual environment (recommended).
+2. Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+3. Open Jupyter and run one notebook at a time:
+	- `integrated_gradients.ipynb` (uses `test_data\dog_test.jpg` by default)
+	- `integrated_decision_gradients.ipynb` (uses `test_data\monkey_test.jpg` by default)
+4. Run all cells from top to bottom to:
+	- load pretrained ResNet50,
+	- compute attributions,
+	- visualize heatmaps and the preprocessed input image.
+
+If you want to test another image, replace the `Image.open(...)` path in the first code cell of the notebook.
