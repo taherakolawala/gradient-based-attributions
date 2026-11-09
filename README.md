@@ -1,6 +1,6 @@
 # Integrated Gradients and Integrated Decision Gradients
 
-[IEEE-style paper (PDF)](paper/gradient-attributions-ieee.pdf) · [LaTeX source](paper/gradient-attributions-ieee.tex)
+[Paper (PDF)](paper/gradient-attributions.pdf) · [LaTeX source](paper/gradient-attributions.tex)
 
 ### Initial Implementation Results 
 
